@@ -7,12 +7,12 @@ int main() {
 scanf("%d", &numero);
 if (numero % 2 == 0)
 {
-printf("%d é par! \n", &numero");
+printf("%d é par! \n", numero);
 } 
-else { printf("%d é ímpar! \n", &numero);
+else { printf("%d é ímpar! \n", numero);
 }
 
 } while (numero % 2 != 0);
- Printf("Você digitou um número par, saindo do programa..");
+ printf("Você digitou um número par, saindo do programa.. \n");
  
 }
